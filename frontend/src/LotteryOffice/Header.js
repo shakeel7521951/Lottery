@@ -100,7 +100,7 @@ const Header = () => {
                 <Link to='/contact'>Contact us</Link>
                 </div>
                 
-                <div className='col-2 d-flex cursor-pointer text-center align-items-center justify-content-center menuButton'>
+                <div className='col-2 d-flex cursor-pointer text-center align-items-center justify-content-center menuButton' onClick={handleMenu}>
                 <Link to='' className='fs-6'>Menu</Link>
                 <i className="bi bi-chevron-down fs-6"></i>
                 </div>
