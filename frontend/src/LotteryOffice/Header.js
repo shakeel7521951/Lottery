@@ -92,13 +92,14 @@ const Header = () => {
             </div>
 
             <div className='row bg-light border-bottom justify-content-between'>
-                <div className='col-6 col-md-8 mx-md-auto links'>
-                    <Link to='/'>All Lotteries</Link>
-                    <Link to='/syndicates'>Syndicates</Link>
-                    <Link to='/combo'>Combos</Link>
-                    <Link to='/results'>Results</Link>
-                    <Link to='/contact'>Contact us</Link>
-                </div>
+              <div className='col-6 col-md-8 mx-md-auto links d-none d-md-block'>
+                 <Link to='/'>All Lotteries</Link>
+                <Link to='/syndicates'>Syndicates</Link>
+                <Link to='/combo'>Combos</Link>
+                <Link to='/results'>Results</Link>
+                <Link to='/contact'>Contact us</Link>
+            </div>
+
                 <div className='col-2 d-flex cursor-pointer text-center align-items-center justify-content-center menuButton' onClick={handleMenu} style={{ position: 'relative' }}>
                     <Link to='' className='fs-6'>Menu</Link>
                     <i className="bi bi-chevron-down fs-6"></i>
