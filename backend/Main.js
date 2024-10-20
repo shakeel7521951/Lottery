@@ -13,7 +13,7 @@
     app.use(express.json());
 
     const corsOptions = {
-        origin: 'http://localhost:3000',
+        origin: 'https://lottery-tes4.vercel.app',
         credentials: true
     };
     app.use(cors(corsOptions));
