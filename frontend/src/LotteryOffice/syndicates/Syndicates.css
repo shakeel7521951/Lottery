@@ -1,0 +1,97 @@
+.syndicates_cantainer{
+    background-image: linear-gradient(to bottom, #2da0f1 0%, #289bee 44%, #178be4 68%, #0076d8 100%);
+}
+.card_data{
+    border-radius: 15px;
+    padding: 20px;
+}
+.card_data h4{
+    font-size: 16px;
+    color: #0076d8;
+    font-weight: 700;
+}
+.card_data h2{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #E25F2C;
+}
+.card_data p{
+    color: #0076d8;
+    font-weight: 400;
+    font-size: 15px;
+}
+.card_data h5{
+    color: #0076d8;
+    font-weight: 700;
+    font-size: 15px;
+}
+.card_data h3{
+    background-color: #0076d8;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    color: white;
+    padding-bottom: 40px;
+    cursor: pointer;
+    ;
+}
+.share{
+    color: white;
+    height: fit-content;
+    height: 80px;
+    width: 80px;
+    border-radius: 15px;
+    background-color: #0076d8;
+}
+hr{
+    width: 2px solid red;
+}
+.btn-syndicates{
+    background-image: linear-gradient(to right, #f5993c 0%, #f76b1c 51%, #f5993c 100%);
+}
+h4{
+    color: #0076d8;
+}
+.imageSize{
+    width: 120px;
+}
+.border-left-custom{
+    display: block;
+    border-left: 3px solid #E25F2C;
+    max-height: 5rem;
+    min-height: 3rem;
+    padding-left:10px;
+    margin-left: -10px;
+}
+@media screen and (max-width:720px) {
+    .border-left-custom{
+        max-height: fit-content;
+        margin-bottom: 0px;
+    }
+}
+.heading-1,.heading-2{
+    background-color: #0076d8;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+.heading-2{
+    background-color: #2da0f1;
+}
+.advantages,.prizes {
+    list-style: circle;
+    padding-left: 0; 
+}
+.advantages li,.total-shares li,.prizes li {
+    font-size: 16px;
+}
+.total-shares{
+    padding-left: 0;
+    list-style: decimal;
+}
+.horizontalLine{
+    width: 3px solid red;
+}
+.lotterySystem p {
+    color: #7a7a7a !important;
+}

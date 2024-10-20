@@ -1,0 +1,50 @@
+.all {
+    position: relative;
+    width: 200px;
+    border-radius: 25px;
+    border: 2px solid #0076d8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.category-dropDown {
+    position: absolute;
+    right:9rem;
+    top: 10.4rem;
+    background-color: white;
+    color: #0076d8;
+    border: 1px solid #0076d8;
+    z-index: 30;
+    box-sizing: border-box; 
+    width: 165px; 
+}
+@media screen and (max-width:720px) {
+    .category-dropDown{
+        top: 18.5rem;
+        right: 8.1rem;
+    }
+}
+
+.category-dropDown p {
+    padding: 9px;
+    margin-bottom: 0;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.active {
+    border-radius: 0;
+    background-color: #0076d8;
+    color: white;
+}
+
+.magazine-card {
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+    transition: scale 1s ease;
+    min-height: 250px !important;
+}
+
+.magazine-card:hover {
+    scale: 1.01;
+}

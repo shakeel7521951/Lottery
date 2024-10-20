@@ -1,0 +1,122 @@
+.charity-page {
+    background-image: url('https://www.lotteryoffice.com.au/assets/images/charity/charity-banner-mobile.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    margin-left: 0;
+}
+.charity-page img {
+    max-width: 100%;
+    height: auto;
+}
+.charity-page h2{
+    color: #7a7b78;
+    font-size: 1.2rem;
+    font-weight: bold;
+}.charity-banner {
+    background-image: url('https://www.lotteryoffice.com.au/assets/images/charity/charity-banner-blue-mobile.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 300px;
+    padding: 2rem 1rem;
+}
+
+.charity-banner h1 {
+    margin: 3rem 0 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.charity-banner p {
+    margin-bottom: 0; 
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+}
+.featured-donations{
+    background: #eee;
+    margin-left: 0;
+}
+.featured-card{
+    background-color: white;
+    min-height: 145px;
+    cursor: pointer;
+    transition: scale 1.1s ease;
+}
+.featured-card:hover{
+    scale: 1.05;
+}
+.featured-donations h4{
+    font-size: 18px;
+    font-weight: 700;
+}
+.featured-donations h5{
+    font-size: 16px;
+}
+h2{
+    color:#7a7b78;
+}
+.funding{
+    background-image: url('https://www.lotteryoffice.com.au/assets/images/charity/funding-banner-mobile.jpg');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.funding p{
+    font-size: 1.3rem;
+    padding: 0 30px;
+    font-weight: 400;
+}
+@media screen and (max-width: 780px) {
+    .charity-banner {
+        padding: 2rem 0; 
+    }
+    .charity-banner h1 {
+        font-size: 1.5rem; 
+        margin: 1rem 0; 
+    }
+    .charity-banner p {
+        font-size: 1rem; 
+    }
+    .funding p{
+        padding: 0;
+    }
+}
+
+/*---------------------------- About css------------------- */
+.about {
+    background-image: url('https://www.lotteryoffice.com.au/assets/images/about-top.jpg');
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 20rem;
+}
+
+.about h2 {
+    margin-top: 12%;
+    font-weight: 700;
+    color: white;
+}
+.about-ticket{
+    background-image: linear-gradient(to bottom, #2da0f1 0%, #289bee 44%, #178be4 68%, #0076d8 100%);
+}
+.about-ticket i,p{
+    color: #2c68a5;
+}
+.achievement{
+    background-image: url('https://www.lotteryoffice.com.au/assets/images/about-bottom.jpg');
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.achievement p,.achievement i{
+    color: #2c68a5;
+}

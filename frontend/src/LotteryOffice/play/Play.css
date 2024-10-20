@@ -1,0 +1,159 @@
+.play-container{
+    background-image: linear-gradient(to bottom, #2da0f1 0% , #289bee 44%, #178be4 68%, #0076d8 100%);
+}
+.quick-play,.chooseNumber{
+    background-color:#0076d8;
+}
+.system-selection{
+    top: 115.4%;
+}
+.system-table th{
+    background-color: #2da0f1;
+    color: white;
+}
+.play-choice p{
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    padding:10px 40px;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+.selected{
+    background-color: #0076d8;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.play-card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    position: relative;
+}
+.play-card:hover {
+    background-color: whitesmoke;
+}
+.play-card h4 ,.general-information h5{
+    color: #e25f2c;
+    font-size: 18px;
+    font-weight: 700;
+}
+.play-card p {
+    margin: 0;
+    color: #0076d8;
+    font-size: 16px;
+    font-weight: 700;
+}
+.play-card i{
+    color: #0076d8;
+}
+.gurantee{
+    font-size: 15px !important;
+    font-weight: 400 !important;
+}
+.lottoSystem {
+    margin: 0;
+    color: white !important;
+    padding: 3px;
+    border-radius: 4px;
+    font-size: 14px !important;
+    position: absolute;
+    top: 0px; 
+    left: 0;
+    background-color: #e25f2c;
+}
+.playBtn{
+    background-image: linear-gradient(to right, #f5993c 0%, #f76b1c 51%, #f5993c 100%);
+}
+.general-information p{
+    font-size: 14px;
+    color: #0076d8;
+}
+.general-information span{
+    color: #0076d8;
+    font-size: 14px;
+    font-weight: 500;
+}
+.jackpot-results{
+    background-color:#2da0f1;
+}
+.division-prizes h4{
+    width: 30%;
+    text-align: start;
+    font-size: 16px;
+}
+.division-prizes p{
+    font-size: 14px;
+    margin: 3px;
+    width:200px;
+    text-align: start;
+}
+.winning-combinations h4{
+    font-size: 16px;
+}
+.winning-combinations h5{
+    font-size: 14px;
+}
+.winning-combinations p{
+    width: 25px;
+    height: 25px;
+}
+.choose{
+    border: 2px solid white;
+    margin: 0;
+}
+.choose h5{
+    width: 50%;
+    margin: 0;
+    padding: 6px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.activated{
+    background-color: white;
+}
+.choose_numbers p{
+    margin: 0;
+    font-size: 14px;
+    color: #0076d8;
+}
+.selected_numbers{
+    gap: 10px;
+}
+.selected_numbers p{
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    padding: 4px;
+    font-size: 16px;
+    border-radius: 50%;
+    border: 2px solid #e25f2c;
+}
+.available p{
+    border: 1px solid gray;
+    background-color: rgb(183, 182, 182);
+    color: white;
+}
+.btn-secondary {
+    border: 2px solid #e25f2c;
+    border-radius: 25px;
+}
+.btn-secondary:hover{
+    background-color: #e25f2c;
+    color: white;
+}
+.total_draws label{
+    cursor: pointer;
+    font-size: 20px;
+}
+.total_draws input{
+    cursor: pointer;
+    width: 20px;
+}
+.total-cost{
+    border: 2px solid #e25f2c;
+    border-radius: 10px;
+    padding: 1px;
+    font-size: 20px;
+    font-weight: 700;
+    width: 200px;
+}

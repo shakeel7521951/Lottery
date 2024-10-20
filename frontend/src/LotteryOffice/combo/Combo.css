@@ -1,0 +1,28 @@
+.combo_container{
+    background-image: linear-gradient(to bottom, #2da0f1 0%, #289bee 44%, #178be4 68%, #0076d8 100%);
+    padding: 20px;
+}
+.combo{
+    border-radius: 20px;
+}
+.combo_container img{
+    width: 7rem;
+    height: 7rem;
+}
+.combo_container h4{
+    font-size: 18px;
+}
+.combo_container h5{
+    color: #e25f2c;
+    font-size: 16px;
+}
+.combo_container h2{
+    color: #e25f2c;
+}
+.combo_container p{
+    font-size: 14px;
+    color: #0076d8;
+}
+.faqs:hover{
+    color: #3ea5ed;
+}

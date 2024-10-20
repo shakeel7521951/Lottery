@@ -1,0 +1,306 @@
+
+.signInPage,.loginInPage{
+    background: rgb(99, 152, 243);
+    color: white;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.sticky_navbar{
+    position: sticky;
+    top: 0;
+    z-index: 199;
+}
+.menuButton{
+    list-style: none;
+    color: blue;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.menuDropDown{
+    position: absolute;
+    width: 27rem;
+    background: white;
+    height: 82vh;
+    top: 100%;
+    right: -12px;
+    overflow-y: scroll;
+}
+
+.menucontent{
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(17, 17, 156) ;
+    cursor: pointer;
+    
+}
+.menuButton li{
+    align-items: center;
+    justify-content: center;
+}
+.header img{
+    width: 250px;
+    height: 40px;
+    border-radius: 15px;
+}
+.signup{
+    background-color: rgb(255, 204, 0);
+    width: 140px;
+    padding: 7px;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    
+}
+.signup button,.loginButton button,.cart button {
+    border: none;
+    outline: none;
+    background-color: inherit;
+    color: white;
+    margin-right: 8px;
+}
+.signup i{
+    width: 16px;
+    font-size: 16px;
+    color: white;
+}
+.signup button:hover{
+    text-decoration: underline;
+}
+
+.loginButton{
+    color: white;
+    font-size: 16px;
+    width: 140px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.loginButton i{
+    color: white;
+    font-size: 14px;
+}
+.loginButton button:hover{
+    text-decoration: underline;
+}
+.cart{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+}
+.cartItems{
+    position: absolute;
+    width: 25rem;
+    height: 20rem;
+    right: 4%;
+    background-color: white;
+    top: 50%;
+    z-index: 23;
+    border: 1px solid gray;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.cartItems i{
+    font-size: 60px;
+}
+.playNowBitton{
+    color: white;
+    background-color: rgb(250, 82, 82);
+    width: 7rem;
+    padding: 10px;
+    font-size: 16px;
+}
+.links{
+    font-size: 16px;
+    padding: 8px;
+}
+.links a{
+    margin-right: 16px;
+}
+
+/* footer start */
+
+.appStore img{
+    width: 140px;
+    cursor: pointer;
+}
+.footer-links a{
+    margin-right: 10px;
+    color: white;
+    font-size: 11px !important;
+}
+.footer-links a:hover{
+    color: gray;
+}
+
+/* footer end */
+.signup_container{
+    background: white;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    padding: 90px;
+}
+.emailInput{
+    border: 2px solid rgb(17, 17, 156);
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 20px;
+    width: 55%;
+    color: rgb(17, 17, 156);
+    forced-color-adjust: blue;
+    padding-left: 10px ;
+}
+.facebookIcon {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(17, 17, 156);
+}
+path{
+    fill: white;
+}
+svg {
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+}
+.confirmEmail{
+    width: 100%;
+    margin-top: 15px;
+}
+.check-gender input{
+    width: 15px;
+    cursor: pointer;
+    color: rgb(17, 17, 156);
+}
+.check-gender label{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(17, 17, 156);
+    cursor: pointer;
+}
+.textSize{
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+}
+.text_size{
+    font-size: 12px;
+    color: white;
+}
+.personal_data input{
+    width: 100%;
+    border: 2px solid rgb(17, 17, 156);
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(17, 17, 156);
+    forced-color-adjust: rgb(17, 17, 156);
+    border-radius: 20px;
+    margin-top: 15px;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+}
+.dob-input {
+    width: 100px;
+    padding: 6px;
+    border: 2px solid rgb(17, 17, 156);
+    margin-right: 5px;
+    border-radius: 20px;
+    text-align: center;
+    color: rgb(17, 17, 156);
+    font-size: 14px;
+    font-weight: 400;
+}
+.check{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 15px;
+}
+.check input {
+    width: 25px;
+    cursor: pointer;
+    color: rgb(17, 17, 156);
+}
+.check label{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(17, 17, 156);
+    cursor: pointer;
+}
+.create_btn{
+    font-size: 16px;
+    font-weight: 400;
+    width: 60%;
+    color: white;
+    background-color: rgb(255, 132, 0);
+    padding: 10px;
+}
+.chatBtn{
+    font-size: 16px;
+    font-weight: 600;
+    width: 30%;
+    background: rgb(97, 211, 3);
+    padding: 10px;
+}
+.logos{
+    align-items: center;
+    justify-content: center;
+}
+.logos img{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+/* login */
+.LoginFormDetails{
+    padding: 8px 0px;
+    outline: none;
+}
+.Login_Main{
+    height: 100vh;
+}
+/* login end */
+
+
+@media screen and (max-width:720px) {
+    .menuDropDown{
+        width: 30rem;
+    }
+}
+@media (max-width: 575.98px) { /* Extra small devices (portrait phones, less than 576px) */
+    .websiteLogo {
+        width: 50%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) { /* Small devices (landscape phones, 576px and up) */
+    .websiteLogo {
+        width: 75%;
+    }
+}
+
+@media (min-width: 768px) { /* Medium devices (tablets, 768px and up) */
+    .websiteLogo {
+        width: 100%;
+    }
+}

@@ -1,0 +1,70 @@
+.background-image-container {
+    background-image: url('https://www.lotteryoffice.com.au/assets/images/app/app-banner-new.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+}
+.overlay-content {
+    padding: 40px; 
+}
+
+@media (max-width: 768px) {
+    .overlay-content {
+        padding: 20px 10px;
+    }
+}
+.opacity-50{
+    font-size: 12px;
+}
+.left-part img ,.right-part img{
+    width: 40px;
+}
+.left-part h5 , .right-part h5{
+    font-size: 16px;
+    font-weight: 700;
+    color: #7a7b78;
+}
+.left-part p,.right-part p{
+    font-size: 14px;
+    color: #7a7b78;
+    padding-right: 60px;
+    text-align: right;
+}
+.right-part p{
+    padding-left:60px;
+    text-align: left;
+}
+.play-options h5{
+    font-size: 16px;
+}
+.play-options img{
+    width: 80%;
+}
+.app-in-australia{
+    background: #ccc;
+}
+.feature-card {
+    min-height: 260px;
+}
+.feature-card h4{
+    font-size: 16px;
+}
+.feature-card h5{
+    font-size: 16px;
+}
+p,li{
+    font-size: 15px;
+    color: #7a7b78;
+}
+b,h5{
+    color: #7a7b78;
+}
+.app-help{
+    background-image: url('https://www.lotteryoffice.com.au/assets/images/app/help-bg-mobile.png');
+    background-repeat: no-repeat;
+    width:100%;
+    background-size: cover;
+    background-position: center;
+}

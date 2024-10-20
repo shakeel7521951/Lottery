@@ -1,0 +1,90 @@
+.faqs-container{
+    background-image: url('https://www.lotteryoffice.com.au/assets/images/landing/faq-banner-mobile.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 0;
+    min-height: 350px;
+    margin-left: 0;
+}
+.faqs-container h1{
+    color: white;
+    margin-top: 12%;
+    font-size: 2.2rem;
+}
+.no-wrap {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100vh;
+}
+
+.faqs-left {
+    background-color: white;
+    max-height: 100vh; 
+    overflow-y: auto; 
+    position: sticky;
+    scroll-behavior: smooth;
+    top: 0;
+}
+
+.faqs-left p {
+    color: #7a7b78;
+    padding: 0 0 0 0.5rem;
+    opacity: 1;
+    line-height: 1.4;
+    cursor: pointer;
+    border-left: 3px solid transparent;
+    font-weight: 600;
+}
+
+.faqs-left p:hover {
+    color: #2c68a5;
+    border-left: 3px solid #e25f2c;
+}
+
+.faqs-left .faqs-activated {
+    color: #2c68a5;
+    border-left: 3px solid #e25f2c;
+    padding-left: 3px;
+}
+
+.faqs-right {
+    overflow-y: auto; 
+    max-height: 100vh; 
+    padding-left: 1rem;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+
+.faqs-right h5 {
+    font-size: 1.125em;
+    cursor: pointer;
+    margin-bottom: 0;
+    color: #2c68a5;
+    font-weight: 500;
+}
+
+.faqs-right i {
+    cursor: pointer;
+}
+.faq {
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1), 0 2px 6px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #fff;
+    transition: box-shadow 0.3s ease;
+}
+.dropdown-text {
+    background-color: #eee;
+    transition: all ease-in-out .3s;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.dropdown-text p {
+    color: #7a7b78;
+    font-size: 1rem;
+    padding: 0 1rem;
+}

@@ -1,0 +1,226 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+.lotteries{
+    margin-top: 10px;
+    background-image: linear-gradient(to bottom, #2da0f1 0%, #289bee 44%, #178be4 68%, #0076d8 100%);
+    position: relative;
+}
+.lotteries h4{
+    font-size: 18px;
+    font-weight: 600;
+    font-family:'Times New Roman', Times, serif;
+}
+.countriesLottery{
+    border: 2px solid white;
+    background-image: linear-gradient(to bottom, #2da0f1 0%, #289bee 44%, #178be4 68%, #0076d8 100%);
+}
+.countriesLottery h5{
+    width: 34%;
+    margin-left: 0;
+    font-size: 15px;
+    cursor: pointer;
+    color: white;
+    padding-top: 7px;
+}
+.active-on-home{
+    background-color: #2c68a5;
+    color: white;
+    width: 100%;
+    border-radius: 25px;
+    margin: 0;
+}
+
+.container {
+    max-width: 100vw; 
+}
+.carts {
+    padding: 20px;
+    min-height: fit-content;
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px white;
+    cursor: pointer;
+    margin-bottom: 20px; 
+    width: 100%;
+}
+.carts:hover button {
+    color: white;
+    background-color: rgb(250, 93, 2);
+}
+.carts img {
+    width: 50px;
+    margin-left: 50%;
+    transform: translate(-50%, -70%);
+}
+.carts h1 {
+    font-weight: 700;
+    color: #2c68a5;
+}
+.carts button {
+    font-size: 18px;
+    padding: 8px;
+    border: 2px solid rgb(252, 89, 1);
+}
+.carts p {
+    font-size: 14px;
+    margin-top: 15px;
+    font-weight: 500;
+    color: rgb(10, 10, 188);
+}
+.text{
+    font-size: 15px;
+    color: white;
+}
+.winners{
+    background-color: white;
+    box-shadow: -2px 2px 2px white;
+}
+.winners h3{
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin: 0;
+    background: -webkit-linear-gradient(left, #2c68a5, #38a4d0);
+}
+.winner_carts{
+    width: 270px;
+    height: 380px;
+    box-shadow: -2px 2px 2px #fff;
+    border-radius: 12px;
+    margin-top: 20px;
+    border: 1px  solid gray;
+    cursor: pointer;
+}
+.winner_carts img{
+    width: 100% ;
+    height: 180px;
+    border-radius: 12px;
+}
+.winner_carts h5{
+    color: #2c68a5;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.winner_carts button{
+    margin-left: 50%;
+    transform: translate(-50%);
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: 2px solid #2c68a5;
+    padding: 4px;
+}
+.latest_results{
+    background-color: white;
+    color: black;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+.latest_results h4{
+    color: #2c68a5;
+}
+.results{
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 1px 1px 2px 2px rgba(0,0,0,0.3);
+    background-color: rgb(218, 238, 250);
+}
+.results img{
+    width: 50px;
+}
+.results h4{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.result_numbers{
+    gap: 10px;
+}
+  .result_numbers p {
+    display: flex-start;
+    width: 35px;
+    height: 35px;
+    padding: 4px;
+    border-radius: 50%;
+    color: white;
+    background-color: #e25f2c;
+    font-size: 16px;
+    
+    font-weight: 600;
+  }
+  
+.view_link a{
+    font-size: 16px;
+    text-decoration: none;
+}
+.bgColorLast{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+}
+.bgColor{
+    background-color: rgb(218, 238, 250);
+}
+.lottery_information h5{
+    color: #2c68a5;
+    font-weight: 700;
+}
+.lottery_information h5::after {
+    position: absolute;
+    height: 70px;
+    width: 3px;
+    left: 280px;
+    background: #e25f2c;
+    display: block;
+    content: "";
+  }
+
+  @media screen and (max-width: 768px) {
+    .lottery_information h5::after {
+      display: none;
+    }
+  }
+.tableBgColor{
+    background-color: #2c68a5;
+    color: white;
+}
+.table_header th{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+table tr th{
+    padding: 5px;
+    font-size: 1rem;
+    font-weight: 400;
+    width: 200px;
+    border: 1px solid black;
+}
+.paymentMethod{
+    background-color: #f8f8f8;
+}
+.paymentMethod h4{
+    color: #2c68a5;
+    font-weight: 700;
+}
+.paymentMethod img{
+    width: 270px;
+    margin:50px auto 0;
+}
+.sponsered_images img {
+    width: 90px;
+    height: 72px;
+    cursor: pointer;
+}
+.footer_section{
+    background-color: #d9d9d9;
+}
+.footer_section h4{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: black;
+}
+
+
+

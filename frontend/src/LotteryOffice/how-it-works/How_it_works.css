@@ -1,0 +1,27 @@
+.YoutubeVideo{
+    height: 31rem;
+    cursor: pointer;
+}
+.how-it-works-container{
+    background-image: linear-gradient(to bottom, #2da0f1 0%, #289bee 44%, #178be4 68%, #0076d8 100%);
+}
+.works-card{
+    max-width: 30% !important;
+}
+.works-play{
+    background: linear-gradient(to top left, #4c4d4a 0%, #464d50 100%);
+}
+.works-play button{
+    background-image: linear-gradient(to right, #f5993c 0%, #f76b1c 51%, #f5993c 100%);
+}
+.works-play h4{
+    color: #F48B30;
+}
+@media screen and (max-width:720px) {
+    .YoutubeVideo{
+        height: 100%;
+    }
+    .works-card{
+        max-width: 90% !important;
+    }
+}
