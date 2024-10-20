@@ -8,8 +8,12 @@
   ],
   "routes": [
     {
-      "src": "/(.*)",
+      "src": "/api/(.*)", // Prefix to direct API calls to the router
       "dest": "api_routes/router.js"
+    },
+    {
+      "src": "/(.*)", // Optional: Handle other routes (if necessary)
+      "dest": "Main.js"
     }
   ],
   "env": {
