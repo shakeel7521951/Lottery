@@ -56,7 +56,7 @@ const Syndicates = () => {
 
     const handleAddToCart = async (id) => {
         try {
-            const response = await fetch(`http://localhost:6005/add-to-cart/${id}`, {
+            const response = await fetch(`https://lottery-three-ivory.vercel.app/add-to-cart/${id}`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
