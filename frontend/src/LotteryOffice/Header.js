@@ -11,7 +11,7 @@ const Header = () => {
     useEffect(() => {
         const fetchCartItems = async () => {
             try {
-                const response = await fetch('http://localhost:6005/cart', {
+                const response = await fetch('https://lottery-three-ivory.vercel.app/cart', {
                     method: 'GET',
                     headers: {
                         'Content-Type': 'application/json',
