@@ -29,7 +29,7 @@ const Sign = () => {
             cPassword: formData.cPassword
         }
         try {
-            const response = await fetch("http://localhost:6005/register", {
+            const response = await fetch("https://lottery-three-ivory.vercel.app/register", {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
