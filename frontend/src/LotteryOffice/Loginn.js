@@ -23,7 +23,7 @@ function Loginn() {
         };
 
         try {
-            const response = await fetch("http://localhost:6005/login", {
+            const response = await fetch("https://lottery-three-ivory.vercel.app/login", {
                 method: 'POST',
                 credentials: 'include', 
                 headers: {
